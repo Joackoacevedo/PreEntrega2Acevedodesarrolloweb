@@ -1,0 +1,12 @@
+main{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.d-flex{
+    display: flex;
+}
+
+.justify-content-space{
+    justify-content: space-between;
+}

@@ -1,0 +1,95 @@
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img_productos{
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+section figure figcaption{
+    margin-left: 10px;
+}
+section div figure{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.img_productos4{
+    width: 270px;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.img_productos1{
+    width: 250px;
+    margin-top: 50px;
+}
+.img_productos5{
+    width: 200px;
+    margin-bottom: 1px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.img_productos6{
+    width: 230px;
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#productos .galeria{
+    display: flex;
+}
+.secondNav{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    /* font-size: 1rem; */
+    /* line-height: 1,6em; */
+}
+.secondNav span{
+    margin: 10px 0;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.secondNav a{
+    color: black;
+    text-decoration: none;
+}
+div form ul li{
+    list-style: none;
+}
+.secondNav a:hover{
+    font-size: 600;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "nav nav"
+    "header header"
+    "filtros productos"
+    "footer footer";
+}
+#mainNav{
+    grid-area: nav; 
+}
+
+#header{
+    grid-area: header;
+}
+
+#filtros{
+    grid-area: filtros;
+}
+
+#productos{
+    grid-area: productos;
+}
+
+#footer{
+    grid-area: footer;
+}
+main section div figure{
+    width: 250px;
+}
